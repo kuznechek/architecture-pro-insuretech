@@ -37,6 +37,10 @@
 - Гарантирует доставку событий (at-least-once)
 - Позволяет восстановить события после сбоев
 
-![Геораспределённая архитектура InsureTech](https://github.com/kuznechek/architecture-pro-insuretech/blob/insuretech/Task%203/to_be.png)
+![as_is](https://github.com/kuznechek/architecture-pro-insuretech/blob/insuretech/Task%203/as_is.png)
 
-[Геораспределённая архитектура InsureTech](https://github.com/kuznechek/architecture-pro-insuretech/blob/insuretech/Task%203/to_be.drawio)
+[as_is.drawio](https://github.com/kuznechek/architecture-pro-insuretech/blob/insuretech/Task%203/as_is.drawio)
+
+![to_be](https://github.com/kuznechek/architecture-pro-insuretech/blob/insuretech/Task%203/to_be.png)
+
+[to_be.drawio](https://github.com/kuznechek/architecture-pro-insuretech/blob/insuretech/Task%203/to_be.drawio)
