@@ -1,0 +1,13 @@
+prometheus:
+  url: http://prometheus-kube-prometheus-stack-prometheus.monitoring:9090
+
+rules:
+  custom:
+  - seriesQuery: 'http_requests_total{namespace!="",pod!=""}'
+    resources:
+      overrides:
+        namespace: {resource: "namespace"}
+        pod: {resource: "pod"}
+    metricsQuery: 'sum(rate(http_requests_total{<<.LabelMatchers>>}[2m])) by (<<.GroupBy>>)'
+    name:
+      as: "rps_per_pod"
